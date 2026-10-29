@@ -1,5 +1,11 @@
+import Todo from "./components/Todo.jsx";
+
 function App() {
-  return <div>Hellow, friend</div>;
+  return (
+    <div className="h-screen bg-lime-50 flex items-center justify-center">
+      <Todo></Todo>
+    </div>
+  );
 }
 
 export default App;
